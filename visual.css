@@ -1,6 +1,8 @@
 body{
-    background-image: url('https://img.freepik.com/free-vector/minimal-style-dotted-geometric-shape-banner-design_1017-43236.jpg');
-    background-size: 40%;
+    background-image: url('https://img.freepik.com/vector-premium/patron-fisuras-estilo-geometrico-textura-papel-embalaje-estilo-anos-80-90_153629-626.jpg?size=626&ext=jpg&ga=GA1.1.1096173041.1687224496&semt=ais');
+    background-size: cover;
+    background-position: center;
+    background-size: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,17 +12,17 @@ main{
     border: solid 6px rgb(176, 174, 174);
     border-radius: 20px;
     padding: 40px;
-    background-color: rgba(177, 31, 31, 0.692);
+    background-color: rgba(43, 40, 40, 0.941);
     margin: auto;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     color: white;
     font-size: 100%;
     font-weight: 700;
+    gap: 20px;
 
 }
 #modelo{
