@@ -1,49 +1,40 @@
+body{
+    background-image: url('https://img.freepik.com/vector-premium/patron-fisuras-estilo-geometrico-textura-papel-embalaje-estilo-anos-80-90_153629-626.jpg?size=626&ext=jpg&ga=GA1.1.1096173041.1687224496&semt=ais');
+    background-size: cover;
+    background-position: center;
+    background-size: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    border: solid 6px rgb(176, 174, 174);
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(43, 40, 40, 0.941);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    gap: 20px;
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="visual.css">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-       <div>
-        <select name="modelo" id="modelo">
-            <option value="mm1" selected>M/M/1</option>
-            <option value="mms">M/M/s</option>
-        </select>
-       </div>
-    <div style="gap: 10px;display: flex; flex-wrap: wrap;">
-        <div>
-            <label for="tasallegada">λ</label>
-            <input type="text" id="tasallegada">
-        </div>
-        <div>
-            <label for="tasaatencion">μ</label>
-        <input type="text" id="tasaatencion">
-        </div>
-        <div>
-            <label for="servidores">s</label>
-        <input type="text" id="servidores">
-        </div>
-    </div>
-    <div>
-        <button id="calcular">Calcular</button>
-    </div> 
-    <div>
-        <p id="resultado"></p>
-        <p id="res1"></p>
-        <p id="res2"></p>
-        <p id="res3"></p>
-        <p id="res4"></p>
-        <p id="res5"></p>
-    </div>  
-    </main>
-   
-    
-    <script src="./funciones.js"></script>
-</body>
-</html>
+}
+#modelo{
+    width: 100px;
+    height: 30px;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+}
+#calcular{
+    width: 200px;
+    height: 30px;
+    font-family: "Courier New", monospace;
+    font-size: larger;
+    font-weight: 700;
+}
