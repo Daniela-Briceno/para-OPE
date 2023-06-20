@@ -1,0 +1,38 @@
+body{
+    background-image: url('https://img.freepik.com/free-vector/minimal-style-dotted-geometric-shape-banner-design_1017-43236.jpg');
+    background-size: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    border: solid 6px rgb(176, 174, 174);
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(177, 31, 31, 0.692);
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+
+}
+#modelo{
+    width: 100px;
+    height: 30px;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+}
+#calcular{
+    width: 200px;
+    height: 30px;
+    font-family: "Courier New", monospace;
+    font-size: larger;
+    font-weight: 700;
+}

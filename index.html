@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="visual.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+       <div>
+        <select name="modelo" id="modelo">
+            <option value="mm1" selected>M/M/1</option>
+            <option value="mms">M/M/s</option>
+        </select>
+    </div>
+    <div>
+        <label for="tasallegada">λ</label>
+        <input type="text" id="tasallegada">
+        <label for="tasaatencion">μ</label>
+        <input type="text" id="tasaatencion">
+        <label for="servidores">s</label>
+        <input type="text" id="servidores">
+    </div>
+    <div>
+        <button id="calcular">Calcular</button>
+    </div> 
+    <div>
+        <p id="resultado"></p>
+        <p id="res1"></p>
+        <p id="res2"></p>
+        <p id="res3"></p>
+        <p id="res4"></p>
+        <p id="res5"></p>
+    </div>  
+    </main>
+   
+    
+    <script src="./funciones.js"></script>
+</body>
+</html>
